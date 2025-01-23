@@ -1,15 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon"> <!--colocar icone no website-->
     <title>Metamorphose Fit Shop</title>
+    <style>
+        mark{
+            background-color: crimson;
+        }
+    </style>
 </head>
 <body>
-   <h1>METAMORPHOSE FIT</h1> <!-- Titulo (de h1 ate h6)-->
+   <h1> <em> <b>METAMORPHOSE FIT</b> </em> </h1> <!-- Titulo (de h1 ate h6)-->
    <hr> <!--Linha horizontal-->
    <P>Transforme sua saude com nossos produtos de qualidade</P> <!--Paragrafo (p) (less than - &lt;, greater than-&gt;)-->
    <p>Cada passo que damos em direccao a saude e um <br> compromisso  com bem-estar e a qualidade de vida, <br> para hoje e para o futuro</p> <!--Quebra de linha (br)-->
-   <img src="logo200.JPG" alt="Logo Metamorphose">
+   <img src="imagens/logo200.JPG" alt="Logo Metamorphose">
+   <h2>Frases Motivacionais</h2>
+   <p><mark>Graças a Deus,</mark> os momentos de dificuldades que passamos podem <br> servir de reflexão para uma melhora ainda maior. <mark> Seja forte, resistente e <br> resiliente</mark>. O que mais me motiva muitas vezes além da minha  família <br> é o meu  trabalho. <mark>É saber que pude contribuir para o nascimento de várias <br> crianças</mark> (alguns já adolescentes) com muita dedicação, carinho e <br> profissionalismo. Foram tantas histórias e serão ainda tantas outras <br> que não dá nem pra pensar em parar. Não tem dinheiro no mundo que pague a <br> satisfação que tenho de participar da história de tantos nascimentos. E nos diversos <br> momentos difíceis que passamos, amadurecemos e continuaremos a amadurecer sempre. <br>
+    <mark>Esta mensagem é pra você que está pensando em desistir de algum sonho, ou se está <br> com medo dos desafios, dos riscos inerentes ou mesmo das intercorrências da vida.</mark> .<br>
+    Excelente dia!<br><mark> Nunca desista dos seus sonhos, seja forte, tenha fé,</mark> no final tudo dará certo!!!</p>
+    <h2>Codigo - Fonte</h2>
+    <p> O comando <code> document.getElementById("teste")</code> e escrito em linguagem Javascript.</p>
+    <pre>
+        <code>
+num = int(input("Digite um numero: "))
+if num % 2 == 0:
+    print("O numero {num} e par".format(num))
+else:
+    print("O numero {num} e impar.".format(num))
+print("Fim do programa")
+        </code>
+    </pre>
+    <h2> Pra fazer citacoes</h2>
+    <p> <q>Não temas as críticas, os sentimentos ruins. Faça o certo, o que tem que ser feito.</q></p> <!-- Pra fazer citacoes, coloca entre aspas (q)-->
+    <p> Segundo a Biblia: </p>
+    <blockquote cite = https://drglaucius.com.br/frases/> Ame a Deus sobre todas as coisas e ao próximo, como a si próprio. <br> É o mandamento bíblico maior. Assim, Deus estará com você e <br> ninguém é capaz de vencer a Deus. <br>
+
+    Uma excelente semana de bênçãos a todos!!! Gratidão !!!</blockquote>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"> <!-- A sequencia precisa ser enumerada (1, A, a, I, i).-->
+        <li> Acordar</li> 
+        <li> Escovar os dentes</li>
+        <li> Tomar banho</li>
+        <li> Vestir</li>
+        <li> Tomar cafe</li>
+       
+    </ol>
+    <h2> Listas Nao Ordenadas</h2> <!-- A sequencia nao precisa ser enumerada (disc, circle, square). -->
+    <ul>
+        <li>Assistir as aulas</li>
+        <li>Praticar</li>
+        <li>Almocar</li>
+        <li>Marcar presenca</li>
+    </ul>
+    <h2>Listas Ordenadas e Nao Ordenadas</h2>
+    <ol>
+        <li>Client Side</li>
+        <ol type="i">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavasScript</li>
+        </ol>
+        
+        <li>Server Side</li>
+        <ul type="square">
+            <li>JAVA</li>
+            <li>Python</li>
+            <li>Ruby</li>
+
+        </ul>
+    </ol>
+    <h2>Lista de Definicoes</h2>
+    <dl>
+        <dt> HTML</dt> <!-- titulo-->
+        <dd> Linguagem de Marcacao de Hipertexto</dd> <!--definicao-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcacao de criacao de design de um site</dd>
+    </dl>
+
+    <h2> LINKS</h2>
+    <p> Voce pode acessar o meu <a href="https://github.com/voyane/Curso_HTML5_CSS3" target="_blank" rel="external"> repositorio publico no GitHub.</a></p>
+    <p>Voce pode acessar<a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27" target="_blank" rel="external"> o video  no canal do youtube </a></p>
+    <p>Ir para <a href="pagina2.html" rel="next"> segunda pagina</a></p>
 </body>
 </html>
